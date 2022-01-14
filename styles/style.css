@@ -27,6 +27,56 @@ hr{
     margin-bottom: 27px;
 
 }
+/* nav style */
+
+.nav-ber{
+    display: flex;
+    justify-content: space-between;
+    height: 94px;
+    background-color: #562EFF; 
+    margin-bottom: 20px;
+    
+   
+}
+.logo{
+    display: flex;
+    column-gap: 16px;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+    padding-left: 520px;
+    padding-top: 26px;
+    padding-bottom: 17px;
+}
+.logo p{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 36px;
+    margin-top: 24px;
+}  
+.menu ul li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu img{
+    width: 51px;
+    height: 51px;
+    margin-top: 23px;
+    margin-right: 530px;
+}
 /* top players style */
 .top-players{
     margin-bottom: 30px;
